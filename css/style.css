@@ -1,0 +1,15 @@
+.bg-roxo{
+    background-color: #7a267a;
+}
+
+.ms-titulo{
+    margin-left: 20%;
+}
+
+.anima-1 > div:hover{
+    transform: scale(1.01);
+}
+
+.anima-2 > div:hover{
+    transform: scale(1.01);
+}
