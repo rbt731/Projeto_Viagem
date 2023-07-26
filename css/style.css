@@ -2,14 +2,19 @@
     background-color: #7a267a;
 }
 
-.ms-titulo{
-    margin-left: 20%;
+.box-shadow > div:hover{
+    box-shadow: 0px 5px 15px;
+    cursor: pointer;
 }
 
-.anima-1 > div:hover{
-    transform: scale(1.01);
+.list > ul:hover{
+    cursor: pointer;
 }
 
-.anima-2 > div:hover{
-    transform: scale(1.01);
+@media screen and (max-width:580px){
+    .order{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+        
 }
